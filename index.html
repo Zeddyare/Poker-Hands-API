@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Hand API</title>
+    <script src="./main.js"></script>
+    <style>
+        
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+    display: inline-grid;
+}
+
+.div2 {
+    grid-row-start: 1;
+}
+
+.div3 {
+    grid-row-start: 1;
+}
+
+.div4 {
+    grid-row-start: 1;
+}
+
+.div5 {
+    grid-row-start: 1;
+}
+
+.div6 {
+    grid-row-start: 1;
+}
+        
+    </style>
+</head>
+<body>
+    <h1>Poker Hand API</h1>
+    <button id="dealer" onclick="window.location.reload();">Deal new hand</button>
+    <div class="div1"></div>
+<div class="parent">
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+    <div class="div5"></div>
+    <div class="div6"></div>
+</div>
+    
+</body>
+</html>
