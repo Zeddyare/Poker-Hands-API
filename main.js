@@ -128,7 +128,7 @@ or here: https://www.unibet.com/poker/guides/poker-hand-rankings-with-cheat-shee
                 } else if (pairQty.includes(2) && pairQty.length == 3) {
                     return "Two Pair";
                 }  else if (pairQty.includes(2)) {
-                    return "One Pair";
+                    return "One Pair"; 
                 } else {
                     return "High Card";
                 }
